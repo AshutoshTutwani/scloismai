@@ -89,6 +89,7 @@
     <section class="date py-lg-4 py-md-3 py-sm-3 py-3">
       <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
         <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Save The Date</h3>
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">20th January 2021</h3>
         <div class="examples ">
           <div class="simply-countdown simply-countdown-one"></div>
         </div>
@@ -240,7 +241,7 @@
     <!--friends & honors -->
     <section class="honors py-lg-4 py-md-3 py-sm-3 py-3">
       <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">friends & honors</h3>
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Messages From Friends & Family Members</h3>
         <div class="flexslider">
           <ul class="slides">
             <li>
@@ -408,16 +409,12 @@
       /**
        * WARNING: I set this coundtown to be running until the end of times.
        * So when you'll init the plugin, follow how it's done in plugin documentation.
-       */
-      var d = new Date();
-        d.setDate(d.getDate() + 19);
-      
+       */      
+      var endTime = new Date("07 December 2020 00:00:00 GMT+05:30");			
+   // endTime = (Date.parse(endTime) / 1000);
+    console.log(endTime)
         // default example
-        simplyCountdown('.simply-countdown-one', {
-            year: d.getFullYear(),
-            month: d.getMonth() + 1,
-            day: d.getDate()
-        });
+        simplyCountdown('.simply-countdown-one');
     </script>
     <!-- start-smoth-scrolling -->
     <script src="js/move-top.js"></script>

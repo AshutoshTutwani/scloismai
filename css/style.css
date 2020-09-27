@@ -143,10 +143,10 @@ ul li {
 /*-- header --*/
 
 .header-outs {  
-  background: url(../images/b4.jpg) no-repeat 0px 0px;
+  background: url(../images/b4.jpg) no-repeat;
   /* Full height */
   height: 100%; 
-
+padding-bottom: 20px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
