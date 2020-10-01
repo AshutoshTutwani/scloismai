@@ -120,6 +120,23 @@ ul li {
   font-weight: 700;
   text-transform: capitalize;  
 }
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color:  #4292ec;
+	color: white;
+	cursor: pointer;
+	width: 35px;
+	border-radius: 4px;
+  }  
+  #myBtn:hover {
+	background-color: #405c13;
+  }
 
 .clr {
   color: #fff;

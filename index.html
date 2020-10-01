@@ -43,6 +43,8 @@
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
   <div class="header-outs" id="header">
     <div class="header-w3layouts">
       <div class="container">
@@ -474,21 +476,25 @@
   <!-- start-smoth-scrolling -->
   <!-- here stars scrolling icon -->
   <script>
-    $(document).ready(function () {
+    //Get the button
+var mybutton = document.getElementById("myBtn");
 
-      var defaults = {
-        containerID: 'toTop', // fading element id
-        containerHoverID: 'toTopHover', // fading element hover id
-        scrollSpeed: 1200,
-        easingType: 'linear'
-      };
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-      $().UItoTop({
-        easingType: 'easeOutQuart'
-      });
-
-    });
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
   </script>
   <!-- //here ends scrolling icon -->
   <!--bootstrap working-->
