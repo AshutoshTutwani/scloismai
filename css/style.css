@@ -88,7 +88,28 @@ ul {
 ul li {
   display: inline-block;
 }
-
+#geoLocation
+{
+	display: none;
+}
+.commonBtn {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color:#fff;
+  background: #4292ec;
+  border: 2px solid #fff;
+}
+.commonBtn:hover{
+  background: #405c13;
+  color: #fff;
+}
 
 /*-- //Reset-Code --*/
 
@@ -97,7 +118,7 @@ ul li {
   color: #000;
   letter-spacing: 2px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: capitalize;  
 }
 
 .clr {
