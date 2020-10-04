@@ -872,6 +872,7 @@ figure.effect-selena h6 {
   transform: translate3d(0, 20px, 0);
   font-size: 19px;
   font-weight: 700;
+  margin-top: 100%;
   color: #ffffff;
 }
 
