@@ -184,7 +184,7 @@ ul li {
   background: url(../images/b4.jpg) no-repeat;
   /* Full height */
   height: 100%; 
-padding-bottom: 20px;
+  padding-bottom: 420px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ h1 a.navbar-brand span {
   display: block;
   text-transform: capitalize;
   line-height: 35px;
-  margin: 0px 44px;
+  margin: 0px 100px;
 }
 
 .header-w3layouts {
@@ -1386,6 +1386,10 @@ footer p a:hover {
 }
 
 @media(max-width:1080px) {
+  .header-outs {    
+    padding-bottom: 20px;  
+  }
+
   .examples {
     width: 60%;
   }
@@ -1606,6 +1610,10 @@ footer p a:hover {
 }
 
 @media(max-width:768px) {
+  .header-outs {    
+    padding-bottom: 20px;  
+  }
+
   .title {
     font-size: 43px;
   }
@@ -1777,7 +1785,7 @@ footer p a:hover {
 
 @media(max-width:600px) {
   h1 a.navbar-brand span {
-    margin: 0px 30px;
+    margin: 0px 50px;
   }
   h1 a.navbar-brand {
     letter-spacing: 1px;
