@@ -184,7 +184,7 @@ ul li {
   background: url(../images/b4.jpg) no-repeat;
   /* Full height */
   height: 100%; 
-  padding-bottom: 420px;
+  padding-bottom: 470px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ ul li {
 h1 a.navbar-brand {
   padding: 21px 0px 0px;
   font-size: 31px;
-  color: #ffa2df !important;
+  color: #4292ec !important;
   text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 2px;
@@ -282,9 +282,19 @@ ul.navbar-nav.nav-fill {
 }
 
 .banner-bride-name h4 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 700;
   color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-shadow: -3px 1px 8px black;
+  font-family: 'Tangerine', cursive;
+}
+
+.weds{
+  font-size: 40px;
+  font-weight: 700;
+  color: #4292ec;
   text-transform: capitalize;
   letter-spacing: 2px;
   text-shadow: -3px 1px 8px black;
@@ -1270,6 +1280,9 @@ footer p a:hover {
   .banner-bride-name h4 {
     font-size: 48px;
   }
+  .weds{
+    font-size: 35px;
+  }
   .jst-wthree-text h2 {
     font-size: 33px;
     color: #4292ec;
@@ -1351,6 +1364,8 @@ footer p a:hover {
   .banner-bride-name h4 {
     font-size: 46px;
   }
+  .weds{
+    font-size: 30px;}
  
   .banner-slide-img {
     padding-top: 15em;
@@ -1434,6 +1449,8 @@ footer p a:hover {
   .banner-bride-name h4 {
     font-size: 44px;
   }
+  .weds{
+    font-size: 28px;}
   .banner-groom-name h4 {
     letter-spacing: 4px;
     margin-top: 12px;
@@ -1745,6 +1762,7 @@ footer p a:hover {
   .banner-bride-name h4 {
     font-size: 42px;
   }
+
   .banner-slide-img {
     padding-top: 11em;
   }
@@ -1891,6 +1909,9 @@ footer p a:hover {
   .banner-bride-name h4 {
     font-size: 38px;
   }
+  .weds{
+    font-size: 26px;}
+
   .news-date ul li a {
     letter-spacing: 1px;
   }
