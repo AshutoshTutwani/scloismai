@@ -184,9 +184,9 @@ ul li {
   background: url(../images/b4.jpg) no-repeat;
   /* Full height */
   height: 100%; 
-  padding-bottom: 470px;
+  padding-bottom: 370px;
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: center
   background-repeat: no-repeat;
   background-size: cover;
 }
